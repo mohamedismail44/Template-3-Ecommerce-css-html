@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/*strar header*/
+.navbar-brand {
+  font-family: "Lobster", sans-serif;
+  font-size: 2rem;
+  color: #f81a5c;
+}
+.nav-button {
+  background-color: #f81a5c;
+  color: azure;
+  outline: none;
+  border-radius: 50px;
+}
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+}
+.nav-button:hover {
+  background-color: #86092f;
+  color: azure;
+}
+.nav-form {
+  border-radius: 50px;
+  border: 2px solid #f81a5c;
+  margin-right: -50px;
+}
+.Buger-nav {
+  font-size: 50px;
+  color: black;
+}
+.main {
+  background-image: url(/images/tomato.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100%;
+}
+.main h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.w-60 {
+  width: 60%;
+}
+
+.card-me img {
+  max-height: 300px;
+  max-width: 100%;
+  cursor: pointer;
+}
+.bg-header p {
+  color: rgb(149, 146, 146);
+}
+.card-me:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.5s;
+}
+.head-font {
+  font-weight: 900;
+}
+
+.head-image {
+  max-height: 250px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.head-image:hover {
+  opacity: 90%;
+}
+
+.text-color {
+  color: rgb(114, 113, 113);
+}
+
+.header2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/images/kingfisher.jpg) no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-size: cover;
+}
+.header2 h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 3rem;
+  color: #f81a5c;
+}
+.news {
+  background-color: black;
+  color: #fff;
+}
+.news .news-butt {
+  background-color: #fff;
+  margin-left: -10px;
+  font-weight: 700;
+  color: black;
+  border: 2px solid #fff;
+  width: 100px;
+  height: 45px;
+}
+.news .news-form {
+  border: 2px solid #fff;
+  outline: none;
+  width: 55%;
+  height: 45px;
+  background-color: black;
+  color: #fff;
+  font-weight: 600;
+}
+.news-form::placeholder {
+  color: #fff;
+}
+.news p {
+  margin: 0;
+}
+
+.news span {
+  font-size: 2.2rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.fruits img:hover {
+  cursor: pointer;
+  filter: saturate(150%);
+}
